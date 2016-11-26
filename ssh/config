@@ -1,0 +1,9 @@
+Host github.com
+    IdentityFile   %d/.ssh/id_rsa_github
+    ControlMaster auto
+    ControlPath ~/.ssh/github-master-%r@%h:%p
+    ControlPersist 2h
+
+Host *
+    ConnectionAttempts 2
+    ConnectTimeout 15

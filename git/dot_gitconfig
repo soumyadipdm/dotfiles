@@ -1,0 +1,7 @@
+[user]
+	email = soumyadip.bt@gmail.com
+	name = Soumyadip Das Mahapatra
+[core]
+	pager = less -r
+[color]
+	ui = auto

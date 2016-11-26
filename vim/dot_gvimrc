@@ -1,0 +1,12 @@
+set guifont=Hack:h12
+"uncomment below when using bitmap font
+"set noantialias
+syntax enable
+set background=dark
+colorscheme xoria256
+
+autocmd vimenter * NERDTree
+" open file in a new tab
+let NERDTreeMapOpenInTab='\r'
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
